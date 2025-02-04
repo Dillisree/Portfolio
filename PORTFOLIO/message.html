@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Sent</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #081b29;
+      padding: 1rem;
+    }
+
+    .page-back {
+      background-color: white;
+      border-radius: 0.6rem;
+      padding: 2rem;
+      max-width: 40rem;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    }
+
+    .title {
+      font-size: 2rem;
+      color: #00abf0;
+      margin-bottom: 1rem;
+    }
+
+    .message-box p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn-box a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.8rem 2rem;
+      background-color: #00abf0;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.3rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-box a:hover {
+      background-color: transparent;
+      color: #00abf0;
+      border: 1px solid #00abf0;
+    }
+
+    .back-to-form a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 2rem;
+      background-color: transparent;
+      color: #00abf0;
+      text-decoration: none;
+      border: 1px solid #00abf0;
+      border-radius: 0.3rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .back-to-form a:hover {
+      background-color: #00abf0;
+      color: white;
+    }
+
+    .number-page {
+      font-size: 1rem;
+      color: #aaa;
+      margin-top: 1.5rem;
+    }
+
+    .nextprev-btn {
+      display: inline-block;
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      font-size: 2rem;
+      color: #00abf0;
+      cursor: pointer;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .wrapper {
+        padding: 2rem;
+      }
+
+      .page-back {
+        padding: 1.5rem;
+        max-width: 90%;
+      }
+
+      .title {
+        font-size: 1.8rem;
+      }
+
+      .message-box p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .btn-box a {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+      }
+
+      .back-to-form a {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+      }
+
+      .number-page {
+        font-size: 0.9rem;
+      }
+
+      .nextprev-btn {
+        font-size: 1.8rem;
+        bottom: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .page-back {
+        padding: 1rem;
+        max-width: 100%;
+      }
+
+      .title {
+        font-size: 1.6rem;
+      }
+
+      .message-box p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .btn-box a {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.9rem;
+      }
+
+      .back-to-form a {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.9rem;
+      }
+
+      .number-page {
+        font-size: 0.8rem;
+      }
+
+      .nextprev-btn {
+        font-size: 1.6rem;
+        bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- page 7 (message sent) -->
+    <div class="page-back">
+      <h1 class="title">Message Sent!</h1>
+      <div class="message-box">
+        <p>Thank you for reaching out! Your message has been successfully sent. I will get back to you as soon as possible.</p>
+        <div class="btn-box">
+          <a href="index.html" class="btn">Back to Home</a>
+          
+        </div>
+        <!-- Link back to the contact form -->
+        
+      </div>
+
+
+      <!-- prev button -->
+      <span class="nextprev-btn back" data-page="turn-6"><i class="bx bx-chevron-left"></i></span>
+    </div>
+  </div>
+</body>
+</html>
